@@ -3,8 +3,9 @@
     height: 90vh;   /*10 remaing space  header  taken*/
     width:  100%;
     background-image: url("../images/background.jpeg");
-    background-position: cover;
+    background-size: cover;
     position: relative;
+   
 }
 .category > .overlay
 {

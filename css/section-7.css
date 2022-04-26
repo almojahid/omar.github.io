@@ -1,0 +1,50 @@
+.section-7{
+
+}
+.analytics
+{
+    height: 45vh;  
+    width:  100%;
+    background-image: url("../images/a.jpg");
+    background-size: cover;
+    position: relative;
+    margin: 5% 0 15% 0;
+  
+  
+}
+.analytics  .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(80 51 16 / 76%);
+  
+}
+
+.analytics-item
+{
+    text-align: center;
+    width: 25%;
+    padding-top: 12%;
+    float: left;
+ 
+}
+
+.analytics-item > i
+{
+    color: rgb(71 111 229);
+    font-size: 30px;
+ 
+}
+.analytics-item  > h3
+{
+    margin: 15px 0 5px 0;
+    color: white;
+}
+.analytics-item  >p
+{
+    color: white;
+}
