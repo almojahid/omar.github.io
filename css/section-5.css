@@ -1,0 +1,35 @@
+.section-5
+{
+    margin-bottom: 5%;
+}
+.whatWeOffer
+{
+    overflow: auto;
+ 
+}
+.whatWeOffer-card
+{
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+.whatWeOffer-card > i
+{
+    font-size: 25px;
+    color: blue;
+}
+.whatWeOffer-card > h3
+{
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   display: inline;
+   padding: 15px;
+}
+.whatWeOffer-card > p{
+    text-transform: capitalize;
+    margin-left: 10%;
+    padding: 20px;
+    color: rgb(190, 184, 184);
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -1,0 +1,62 @@
+.category
+{
+    height: 90vh;   /*10 remaing space  header  taken*/
+    width:  100%;
+    background-image: url("../images/background.jpeg");
+    background-position: cover;
+    position: relative;
+}
+.category > .overlay
+{
+    height: 100%;   
+    width:  100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+.category  .category-item
+{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+}
+.category-item > h1
+{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 52px;
+    margin: 10px 0;
+}
+.category-item > p
+{
+    
+    text-transform: lowercase;
+    word-spacing: 1px;
+    color: white;
+    font-size: 13px;
+    margin: 10px 0;
+}
+.category-item > .btn
+{
+    text-transform: capitalize;
+    width: 150px;
+    padding: 10px 0px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.category-item > .btn-learn
+{
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+}
+.btn:hover
+{
+    opacity: 0.3;
+}

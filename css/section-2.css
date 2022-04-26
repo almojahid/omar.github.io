@@ -1,0 +1,50 @@
+.wellcome
+{
+    overflow: auto;
+    padding-bottom: 10%;
+  
+}
+.wellcome-card
+{
+    padding: 15px;
+}
+.wellcome-card > i{
+    
+    color:#7a7aff;
+    font-size: 22px;
+    padding: 10px;
+}
+.wellcome-card > h2{
+    margin: 10px 0px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.wellcome-card > p{
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    word-spacing: 1px;
+    color: grey;
+    line-height: 22px;
+}
+.wellcome-card > a{
+    color:#7a7aff;
+   text-decoration: none;
+}
+.wellcome-card::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0%;
+    height: 0;
+    background-color: rgb(129, 124, 124);
+    opacity: 0.5;
+    transition: 1s;
+}
+.wellcome-card:hover::after
+{
+    height: 100%;
+    width: 100%;
+}

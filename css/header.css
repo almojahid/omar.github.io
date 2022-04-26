@@ -1,0 +1,55 @@
+.head
+{
+    position: relative;
+    height: 60px;
+    opacity: 0.8;
+    z-index: 10;
+}
+.menu
+{
+    background-color: rgb(112 112 112);
+    position: fixed;
+    width: 100%;
+}
+.menu > img
+{
+    width: 10%;
+    height: 58px;
+    padding: 2px;
+    margin-left: 10px;    
+    float: left;
+}
+.menu > ul
+{
+    list-style: none;
+    float: right;
+    margin: 20px 10% 0 0;
+}
+.menu li
+{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu li > a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.menu li > span{
+    
+   display: none;
+   background-color: antiquewhite; 
+   margin: 2px auto auto auto;
+   height: 2px;
+   width: 35px;
+}
+.menu li > a:hover
+{
+    color: bisque;
+}
+.menu li a:hover + span
+{
+    display: block;
+    transition: 1s;
+}
